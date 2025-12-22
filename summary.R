@@ -1,0 +1,6 @@
+names <- c("akki","mango","apple")
+age <- c(20,19,43)
+marks <- c(98,80,95)
+df <-data.frame(names,age,marks)
+summary(df $age)
+write.csv(df,"datafr.csv")
